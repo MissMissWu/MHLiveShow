@@ -1,0 +1,26 @@
+//
+//  MHLiveShowPrefixHeader.pch
+//  MHLiveShow
+//
+//  Created by CoderMikeHe on 17/2/24.
+//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 常用的工具类
+#import "MHAppUtils.h"
+// 常用的常量类
+#import "MHConstant.h"
+
+
+#endif
